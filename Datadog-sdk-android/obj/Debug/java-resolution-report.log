@@ -1,0 +1,636 @@
+==== Cycle 1 ====
+
+The method '[Method] void access$stop(com.datadog.android.Datadog $this)' was removed because its name contains a dollar sign.
+The method '[Method] java.util.concurrent.atomic.AtomicBoolean getInitialized$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] int getLibraryVerbosity$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] long getStartupTimeNs$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] boolean isDebug$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setDebug$dd_sdk_android_release(boolean <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setUserInfo$default(java.lang.String p0, java.lang.String p1, java.lang.String p2, java.util.Map p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration asConfiguration$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Credentials asCredentials$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.DatadogConfig.CoreConfig getCoreConfig$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.DatadogConfig.FeatureConfig getCrashReportConfig$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.DatadogConfig.FeatureConfig getLogsConfig$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.DatadogConfig.RumConfig getRumConfig$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.DatadogConfig.FeatureConfig getTracesConfig$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setCoreConfig$dd_sdk_android_release(com.datadog.android.DatadogConfig.CoreConfig <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.DatadogConfig.Builder trackInteractions$default(com.datadog.android.DatadogConfig.Builder p0, com.datadog.android.rum.tracking.ViewAttributesProvider[] p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.DatadogConfig.CoreConfig copy$default(com.datadog.android.DatadogConfig.CoreConfig p0, boolean p1, java.lang.String p2, java.lang.String p3, java.util.List p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.DatadogConfig.FeatureConfig copy$default(com.datadog.android.DatadogConfig.FeatureConfig p0, java.lang.String p1, java.util.UUID p2, java.lang.String p3, java.lang.String p4, java.util.List p5, int p6, java.lang.Object p7)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.DatadogConfig.RumConfig copy$default(com.datadog.android.DatadogConfig.RumConfig p0, java.lang.String p1, java.util.UUID p2, java.lang.String p3, java.lang.String p4, float p5, com.datadog.android.rum.internal.instrumentation.gestures.GesturesTracker p6, com.datadog.android.rum.internal.tracking.UserActionTrackingStrategy p7, com.datadog.android.rum.tracking.ViewTrackingStrategy p8, java.util.List p9, com.datadog.android.rum.internal.domain.event.RumEventMapper p10, int p11, java.lang.Object p12)' was removed because its name contains a dollar sign.
+The class '[Class] com.datadog.android.DatadogEventListener' was removed because the Java base type 'okhttp3.EventListener' could not be found.
+The constructor 'Constructor: com.datadog.android.DatadogInterceptor.DatadogInterceptor' was removed because the Java parameter type 'kotlin.jvm.functions.Function0' could not be found.
+The method '[Method] java.lang.String[] access$getXhrMethods$cp()' was removed because its name contains a dollar sign.
+The method '[Method] boolean canSendSpan$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] okhttp3.Response intercept(okhttp3.Interceptor.Chain chain)' was removed because the Java return type 'okhttp3.Response' could not be found.
+The method '[Method] void onRequestIntercepted(okhttp3.Request request, io.opentracing.Span span, okhttp3.Response response, java.lang.Throwable throwable)' was removed because the Java parameter type 'okhttp3.Request' could not be found.
+The method '[Method] void onRequestIntercepted(okhttp3.Request request, io.opentracing.Span span, okhttp3.Response response, java.lang.Throwable throwable)' was removed because the Java parameter type 'io.opentracing.Span' could not be found.
+The method '[Method] void onRequestIntercepted(okhttp3.Request request, io.opentracing.Span span, okhttp3.Response response, java.lang.Throwable throwable)' was removed because the Java parameter type 'okhttp3.Response' could not be found.
+The method '[Method] java.lang.String[] getXhrMethods$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] long getWindowDurationMs$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Core access$getDEFAULT_CORE_CONFIG$cp()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.CrashReport access$getDEFAULT_CRASH_CONFIG$cp()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.Logs access$getDEFAULT_LOGS_CONFIG$cp()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.RUM access$getDEFAULT_RUM_CONFIG$cp()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.Tracing access$getDEFAULT_TRACING_CONFIG$cp()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$getERROR_FEATURE_DISABLED$cp()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$getURL_REGEX$cp()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Core getCoreConfig$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.CrashReport getCrashReportConfig$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.Logs getLogsConfig$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.RUM getRumConfig$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.Tracing getTracesConfig$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setCoreConfig$dd_sdk_android_release(com.datadog.android.core.configuration.Configuration.Core <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void access$checkCustomEndpoint(com.datadog.android.core.configuration.Configuration.Builder $this, java.lang.String endpoint)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.instrumentation.gestures.DatadogGesturesTracker access$gestureTracker(com.datadog.android.core.configuration.Configuration.Builder $this, com.datadog.android.rum.tracking.ViewAttributesProvider[] customProviders)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.CrashReport access$getCrashReportConfig$p(com.datadog.android.core.configuration.Configuration.Builder $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.Logs access$getLogsConfig$p(com.datadog.android.core.configuration.Configuration.Builder $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.RUM access$getRumConfig$p(com.datadog.android.core.configuration.Configuration.Builder $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.event.RumEventMapper access$getRumEventMapper(com.datadog.android.core.configuration.Configuration.Builder $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.Tracing access$getTracesConfig$p(com.datadog.android.core.configuration.Configuration.Builder $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.tracking.UserActionTrackingStrategy access$provideUserTrackingStrategy(com.datadog.android.core.configuration.Configuration.Builder $this, com.datadog.android.rum.internal.instrumentation.gestures.GesturesTracker gesturesTracker)' was removed because its name contains a dollar sign.
+The method '[Method] void access$setCrashReportConfig$p(com.datadog.android.core.configuration.Configuration.Builder $this, com.datadog.android.core.configuration.Configuration.Feature.CrashReport <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void access$setLogsConfig$p(com.datadog.android.core.configuration.Configuration.Builder $this, com.datadog.android.core.configuration.Configuration.Feature.Logs <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void access$setRumConfig$p(com.datadog.android.core.configuration.Configuration.Builder $this, com.datadog.android.core.configuration.Configuration.Feature.RUM <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void access$setTracesConfig$p(com.datadog.android.core.configuration.Configuration.Builder $this, com.datadog.android.core.configuration.Configuration.Feature.Tracing <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Builder trackInteractions$default(com.datadog.android.core.configuration.Configuration.Builder p0, com.datadog.android.rum.tracking.ViewAttributesProvider[] p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Core getDEFAULT_CORE_CONFIG$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.CrashReport getDEFAULT_CRASH_CONFIG$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.Logs getDEFAULT_LOGS_CONFIG$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.RUM getDEFAULT_RUM_CONFIG$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.Tracing getDEFAULT_TRACING_CONFIG$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getERROR_FEATURE_DISABLED$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.List<java.lang.String> sanitizeHosts$dd_sdk_android_release(java.util.List<java.lang.String> hosts)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Core copy$default(com.datadog.android.core.configuration.Configuration.Core p0, boolean p1, java.util.List p2, com.datadog.android.core.configuration.BatchSize p3, com.datadog.android.core.configuration.UploadFrequency p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.CrashReport copy$default(com.datadog.android.core.configuration.Configuration.Feature.CrashReport p0, java.lang.String p1, java.util.List p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.Logs copy$default(com.datadog.android.core.configuration.Configuration.Feature.Logs p0, java.lang.String p1, java.util.List p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.RUM copy$default(com.datadog.android.core.configuration.Configuration.Feature.RUM p0, java.lang.String p1, java.util.List p2, float p3, com.datadog.android.rum.internal.instrumentation.gestures.GesturesTracker p4, com.datadog.android.rum.internal.tracking.UserActionTrackingStrategy p5, com.datadog.android.rum.tracking.ViewTrackingStrategy p6, com.datadog.android.event.EventMapper p7, int p8, java.lang.Object p9)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Configuration.Feature.Tracing copy$default(com.datadog.android.core.configuration.Configuration.Feature.Tracing p0, java.lang.String p1, java.util.List p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.Credentials copy$default(com.datadog.android.core.configuration.Credentials p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, java.lang.String p4, java.lang.String p5, int p6, java.lang.Object p7)' was removed because its name contains a dollar sign.
+The method '[Method] long getBaseStepMs$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.BatchSize getBatchSize$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getClientToken$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.ref.WeakReference<android.content.Context> getContextRef$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getEnvName$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.net.FirstPartyHostDetector getFirstPartyHostDetector$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.concurrent.atomic.AtomicBoolean getInitialized$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.lyft.kronos.KronosClock getKronosClock$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.net.info.NetworkInfoProvider getNetworkInfoProvider$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] long getNETWORK_TIMEOUT_MS$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] okhttp3.OkHttpClient getOkHttpClient$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getPackageName$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getPackageVersion$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.concurrent.ExecutorService getPersistenceExecutorService$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getRumApplicationId$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getServiceName$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.system.SystemInfoProvider getSystemInfoProvider$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.time.TimeProvider getTimeProvider$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.privacy.ConsentProvider getTrackingConsentProvider$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.concurrent.ScheduledThreadPoolExecutor getUploadExecutorService$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.configuration.UploadFrequency getUploadFrequency$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.log.internal.user.MutableUserInfoProvider getUserInfoProvider$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getVariant$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] boolean isMainProcess$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setBatchSize$dd_sdk_android_release(com.datadog.android.core.configuration.BatchSize <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setClientToken$dd_sdk_android_release(java.lang.String <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setContextRef$dd_sdk_android_release(java.lang.ref.WeakReference<android.content.Context> <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setEnvName$dd_sdk_android_release(java.lang.String <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setFirstPartyHostDetector$dd_sdk_android_release(com.datadog.android.core.internal.net.FirstPartyHostDetector <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setKronosClock$dd_sdk_android_release(com.lyft.kronos.KronosClock <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setMainProcess$dd_sdk_android_release(boolean <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setNetworkInfoProvider$dd_sdk_android_release(com.datadog.android.core.internal.net.info.NetworkInfoProvider <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setOkHttpClient$dd_sdk_android_release(okhttp3.OkHttpClient <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setPackageName$dd_sdk_android_release(java.lang.String <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setPackageVersion$dd_sdk_android_release(java.lang.String <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setPersistenceExecutorService$dd_sdk_android_release(java.util.concurrent.ExecutorService <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setRumApplicationId$dd_sdk_android_release(java.lang.String <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setServiceName$dd_sdk_android_release(java.lang.String <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setSystemInfoProvider$dd_sdk_android_release(com.datadog.android.core.internal.system.SystemInfoProvider <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setTimeProvider$dd_sdk_android_release(com.datadog.android.core.internal.time.TimeProvider <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setTrackingConsentProvider$dd_sdk_android_release(com.datadog.android.core.internal.privacy.ConsentProvider <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setUploadExecutorService$dd_sdk_android_release(java.util.concurrent.ScheduledThreadPoolExecutor <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setUploadFrequency$dd_sdk_android_release(com.datadog.android.core.configuration.UploadFrequency <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setUserInfoProvider$dd_sdk_android_release(com.datadog.android.log.internal.user.MutableUserInfoProvider <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setVariant$dd_sdk_android_release(java.lang.String <set-?>)' was removed because its name contains a dollar sign.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because the Java field type 'com.lyft.kronos.KronosClock' could not be found.
+The method '[Method] java.lang.String getAuthorizedFolderName$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getEndpointUrl$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.List<com.datadog.android.plugin.DatadogPlugin> getFeaturePlugins$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.concurrent.atomic.AtomicBoolean getInitialized$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.domain.PersistenceStrategy<T> getPersistenceStrategy$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.net.DataUploader getUploader$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.data.upload.UploadScheduler getUploadScheduler$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setEndpointUrl$dd_sdk_android_release(java.lang.String <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setPersistenceStrategy$dd_sdk_android_release(com.datadog.android.core.internal.domain.PersistenceStrategy<T> <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setUploader$dd_sdk_android_release(com.datadog.android.core.internal.net.DataUploader <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setUploadScheduler$dd_sdk_android_release(com.datadog.android.core.internal.data.upload.UploadScheduler <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] java.util.Map validateAttributes$default(com.datadog.android.core.internal.constraints.DataConstraints p0, java.util.Map p1, java.lang.String p2, java.lang.String p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$isKeyReserved(com.datadog.android.core.internal.constraints.DatadogDataConstraints $this, java.lang.String tag)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.data.file.Batch copy$default(com.datadog.android.core.internal.data.file.Batch p0, java.lang.String p1, byte[] p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.domain.FilePersistenceConfig getFilePersistenceConfig$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.io.File getPreviousFile$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] int getPreviousFileLogCount$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.io.File getRootDirectory$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setPreviousFile$dd_sdk_android_release(java.io.File <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setPreviousFileLogCount$dd_sdk_android_release(int <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.data.Orchestrator getFileOrchestrator$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.data.Orchestrator getFileOrchestrator$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void writeDataToFile$default(com.datadog.android.core.internal.data.file.ImmediateFileWriter p0, java.io.File p1, byte[] p2, boolean p3, boolean p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] long getCurrentDelayIntervalMs$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] long getMaxDelayMs$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] long getMinDelayMs$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setCurrentDelayIntervalMs$dd_sdk_android_release(long <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setMaxDelayMs$dd_sdk_android_release(long <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setMinDelayMs$dd_sdk_android_release(long <set-?>)' was removed because its name contains a dollar sign.
+The class '[Class] com.datadog.android.core.internal.data.upload.UploadWorker' was removed because the Java base type 'androidx.work.Worker' could not be found.
+The method '[Method] com.datadog.android.core.internal.domain.FilePersistenceConfig copy$default(com.datadog.android.core.internal.domain.FilePersistenceConfig p0, long p1, long p2, int p3, long p4, long p5, int p6, java.lang.Object p7)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.data.file.FileOrchestrator getAuthorizedFileOrchestrator$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.domain.batching.ConsentAwareDataWriter<T> getConsentAwareDataWriter$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.data.file.FileReader getFileReader$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.data.file.FileOrchestrator getIntermediateFileOrchestrator$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.domain.PayloadDecoration access$getJSON_ARRAY_DECORATION$cp()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.domain.PayloadDecoration access$getNEW_LINE_DECORATION$cp()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.domain.PayloadDecoration copy$default(com.datadog.android.core.internal.domain.PayloadDecoration p0, java.lang.CharSequence p1, java.lang.CharSequence p2, java.lang.CharSequence p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.domain.Time copy$default(com.datadog.android.core.internal.domain.Time p0, long p1, long p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.data.file.FileHandler access$getFileHandler$p(com.datadog.android.core.internal.domain.batching.migrators.MoveDataMigrator $this)' was removed because its name contains a dollar sign.
+The method '[Method] long access$getRETRY_DELAY_IN_NANOS$cp()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getApprovedFolderPath$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getPendingFolderPath$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.data.file.FileHandler access$getFileHandler$p(com.datadog.android.core.internal.domain.batching.migrators.WipeDataMigrator $this)' was removed because its name contains a dollar sign.
+The method '[Method] long access$getRETRY_DELAY_IN_NANOS$cp()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getFolderPath$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void access$mapAndWriteEvent(com.datadog.android.core.internal.domain.batching.processors.DefaultDataProcessor $this, java.lang.Object event)' was removed because its name contains a dollar sign.
+The constructor 'Constructor: com.datadog.android.core.internal.net.DataOkHttpUploader.DataOkHttpUploader' was removed because the Java parameter type 'okhttp3.OkHttpClient' could not be found.
+The constructor 'Constructor: com.datadog.android.core.internal.net.DataOkHttpUploader.DataOkHttpUploader' was removed because the Java parameter type 'okhttp3.OkHttpClient' could not be found.
+The method '[Method] okhttp3.OkHttpClient getClient$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getContentType$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getUrl$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setUrl$dd_sdk_android_release(java.lang.String <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] java.util.List<java.lang.String> getKnownHosts$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] boolean isFirstPartyUrl(okhttp3.HttpUrl url)' was removed because the Java parameter type 'okhttp3.HttpUrl' could not be found.
+The class '[Class] com.datadog.android.core.internal.net.GzipRequestInterceptor' was removed because the Java implemented interface type 'okhttp3.Interceptor' could not be found.
+The method '[Method] java.lang.String identifyRequest(okhttp3.Request request)' was removed because the Java parameter type 'okhttp3.Request' could not be found.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.net.info.NetworkInfo copy$default(com.datadog.android.core.internal.net.info.NetworkInfo p0, com.datadog.android.core.internal.net.info.NetworkInfo.Connectivity p1, java.lang.String p2, int p3, int p4, int p5, int p6, java.lang.String p7, int p8, java.lang.Object p9)' was removed because its name contains a dollar sign.
+The method '[Method] float getSampleRate$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.system.SystemInfo copy$default(com.datadog.android.core.internal.system.SystemInfo p0, com.datadog.android.core.internal.system.SystemInfo.BatteryStatus p1, int p2, boolean p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The constructor 'Constructor: com.datadog.android.core.internal.time.KronosTimeProvider.KronosTimeProvider' was removed because the Java parameter type 'com.lyft.kronos.Clock' could not be found.
+The class '[Class] com.datadog.android.core.internal.time.LoggingSyncListener' was removed because the Java implemented interface type 'com.lyft.kronos.SyncListener' could not be found.
+The method '[Method] int indexOf$default(byte[] p0, byte p1, int p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJsonArray(java.lang.Iterable<?> obj)' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.google.gson.JsonElement toJsonElement(java.lang.Object obj)' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] void warnDeprecated$default(java.lang.String p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] void addAttribute(java.lang.String key, com.google.gson.JsonArray value)' was removed because the Java parameter type 'com.google.gson.JsonArray' could not be found.
+The method '[Method] void addAttribute(java.lang.String key, com.google.gson.JsonObject value)' was removed because the Java parameter type 'com.google.gson.JsonObject' could not be found.
+The method '[Method] void d$default(com.datadog.android.log.Logger p0, java.lang.String p1, java.lang.Throwable p2, java.util.Map p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] void e$default(com.datadog.android.log.Logger p0, java.lang.String p1, java.lang.Throwable p2, java.util.Map p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] void i$default(com.datadog.android.log.Logger p0, java.lang.String p1, java.lang.Throwable p2, java.util.Map p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] void internalLog$dd_sdk_android_release$default(com.datadog.android.log.Logger p0, int p1, java.lang.String p2, java.lang.Throwable p3, java.util.Map p4, java.lang.Long p5, int p6, java.lang.Object p7)' was removed because its name contains a dollar sign.
+The method '[Method] void internalLog$dd_sdk_android_release(int level, java.lang.String message, java.lang.Throwable throwable, java.util.Map<java.lang.String, ? extends java.lang.Object> localAttributes, java.lang.Long timestamp)' was removed because its name contains a dollar sign.
+The method '[Method] void log$default(com.datadog.android.log.Logger p0, int p1, java.lang.String p2, java.lang.Throwable p3, java.util.Map p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] void v$default(com.datadog.android.log.Logger p0, java.lang.String p1, java.lang.Throwable p2, java.util.Map p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] void w$default(com.datadog.android.log.Logger p0, java.lang.String p1, java.lang.Throwable p2, java.util.Map p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] void wtf$default(com.datadog.android.log.Logger p0, java.lang.String p1, java.lang.Throwable p2, java.util.Map p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.log.internal.domain.Log copy$default(com.datadog.android.log.internal.domain.Log p0, java.lang.String p1, int p2, java.lang.String p3, long p4, java.util.Map p5, java.util.List p6, java.lang.Throwable p7, com.datadog.android.core.internal.net.info.NetworkInfo p8, com.datadog.android.log.internal.user.UserInfo p9, java.lang.String p10, java.lang.String p11, int p12, java.lang.Object p13)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.log.internal.domain.Log generateLog$default(com.datadog.android.log.internal.domain.LogGenerator p0, int p1, java.lang.String p2, java.lang.Throwable p3, java.util.Map p4, java.util.Set p5, long p6, java.lang.String p7, boolean p8, boolean p9, int p10, java.lang.Object p11)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getLoggerName$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.net.info.NetworkInfoProvider getNetworkInfoProvider$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getServiceName$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.log.internal.user.UserInfoProvider getUserInfoProvider$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String[] access$getReservedAttributes$cp()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String[] getReservedAttributes$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String resolveLogLevelStatus$dd_sdk_android_release(int level)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.log.internal.logger.LogHandler[] getHandlers$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] kotlin.jvm.functions.Function2<java.lang.Integer, java.lang.Throwable, java.lang.Boolean> getCondition$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.log.internal.logger.LogHandler getDelegateHandler$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] boolean getBundleWithRum$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] boolean getBundleWithTraces$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.log.internal.domain.LogGenerator getLogGenerator$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.sampling.Sampler getSampler$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.data.Writer<com.datadog.android.log.internal.domain.Log> getWriter$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.StackTraceElement getCallerStackElement$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getServiceName$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] boolean getUseClassnameAsTag$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String resolveTag$dd_sdk_android_release(java.lang.StackTraceElement stackTraceElement)' was removed because its name contains a dollar sign.
+The method '[Method] void handleLog$default(com.datadog.android.log.internal.logger.LogHandler p0, int p1, java.lang.String p2, java.lang.Throwable p3, java.util.Map p4, java.util.Set p5, java.lang.Long p6, int p7, java.lang.Object p8)' was removed because its name contains a dollar sign.
+The constructor 'Constructor: com.datadog.android.log.internal.net.LogsOkHttpUploader.LogsOkHttpUploader' was removed because the Java parameter type 'okhttp3.OkHttpClient' could not be found.
+The method '[Method] java.lang.String access$buildUrl(com.datadog.android.log.internal.net.LogsOkHttpUploader.Companion $this, java.lang.String endpoint, java.lang.String token)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.log.internal.user.UserInfo copy$default(com.datadog.android.log.internal.user.UserInfo p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, java.util.Map p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.plugin.DatadogContext copy$default(com.datadog.android.plugin.DatadogContext p0, com.datadog.android.plugin.DatadogRumContext p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.plugin.DatadogRumContext copy$default(com.datadog.android.plugin.DatadogRumContext p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] java.util.Map<java.lang.String, java.lang.Object> getGlobalAttributes$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.RumMonitor getMonitor$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.RumContext getRumContext$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.concurrent.atomic.AtomicLong getSessionStartNs$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.concurrent.atomic.AtomicBoolean isRegistered$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setMonitor$dd_sdk_android_release(com.datadog.android.rum.RumMonitor <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void updateRumContext$dd_sdk_android_release(com.datadog.android.rum.internal.domain.RumContext newContext)' was removed because its name contains a dollar sign.
+The method '[Method] void startResource$default(com.datadog.android.rum.RumMonitor p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, java.util.Map p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] void startView$default(com.datadog.android.rum.RumMonitor p0, java.lang.Object p1, java.lang.String p2, java.util.Map p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] void stopUserAction$default(com.datadog.android.rum.RumMonitor p0, com.datadog.android.rum.RumActionType p1, java.lang.String p2, java.util.Map p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] void stopUserAction$default(com.datadog.android.rum.RumMonitor p0, java.util.Map p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] void stopView$default(com.datadog.android.rum.RumMonitor p0, java.lang.Object p1, java.util.Map p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.RumResourceKind fromMimeType$dd_sdk_android_release(java.lang.String mimeType)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.RumResourceKind fromMimeType$dd_sdk_android_release(java.lang.String mimeType)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.tracking.UserActionTrackingStrategy getActionTrackingStrategy$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.instrumentation.gestures.GesturesTracker getGesturesTracker$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.event.EventMapper<com.datadog.android.rum.internal.domain.event.RumEvent> getRumEventMapper$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] float getSamplingRate$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.tracking.ViewTrackingStrategy getViewTrackingStrategy$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.tracking.TrackingStrategy getViewTreeTrackingStrategy$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setActionTrackingStrategy$dd_sdk_android_release(com.datadog.android.rum.internal.tracking.UserActionTrackingStrategy <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setGesturesTracker$dd_sdk_android_release(com.datadog.android.rum.internal.instrumentation.gestures.GesturesTracker <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setRumEventMapper$dd_sdk_android_release(com.datadog.android.event.EventMapper<com.datadog.android.rum.internal.domain.event.RumEvent> <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setSamplingRate$dd_sdk_android_release(float <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setViewTrackingStrategy$dd_sdk_android_release(com.datadog.android.rum.tracking.ViewTrackingStrategy <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setViewTreeTrackingStrategy$dd_sdk_android_release(com.datadog.android.rum.tracking.TrackingStrategy <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$getNULL_UUID$cp()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.RumContext copy$default(com.datadog.android.rum.internal.domain.RumContext p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, java.lang.String p4, java.lang.String p5, int p6, java.lang.Object p7)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.event.ResourceTiming copy$default(com.datadog.android.rum.internal.domain.event.ResourceTiming p0, long p1, long p2, long p3, long p4, long p5, long p6, long p7, long p8, long p9, long p10, int p11, java.lang.Object p12)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.event.RumEvent copy$default(com.datadog.android.rum.internal.domain.event.RumEvent p0, java.lang.Object p1, java.util.Map p2, java.util.Map p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.event.RumEventMapper copy$default(com.datadog.android.rum.internal.domain.event.RumEventMapper p0, com.datadog.android.event.EventMapper p1, com.datadog.android.event.EventMapper p2, com.datadog.android.event.EventMapper p3, com.datadog.android.event.EventMapper p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] java.util.Set access$getIgnoredAttributes$cp()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.Set access$getKnownAttributes$cp()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.Set<java.lang.String> getIgnoredAttributes$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.Set<java.lang.String> getKnownAttributes$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement access$toJson(java.lang.Object obj)' was removed because its name contains a dollar sign.
+The method '[Method] long access$getACTION_MAX_DURATION_NS$cp()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getActionId$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.Map<java.lang.String, java.lang.Object> getAttributes$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] long getCrashCount$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] long getErrorCount$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getName$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] long getResourceCount$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.RumActionType getType$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] int getViewTreeChangeCount$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setCrashCount$dd_sdk_android_release(long <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setErrorCount$dd_sdk_android_release(long <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setName$dd_sdk_android_release(java.lang.String <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setResourceCount$dd_sdk_android_release(long <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setType$dd_sdk_android_release(com.datadog.android.rum.RumActionType <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setViewTreeChangeCount$dd_sdk_android_release(int <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] long getACTION_MAX_DURATION_NS$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumScope getChildScope$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] float getSamplingRate$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.AddCustomTiming copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.AddCustomTiming p0, java.lang.String p1, com.datadog.android.core.internal.domain.Time p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.AddError copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.AddError p0, java.lang.String p1, com.datadog.android.rum.RumErrorSource p2, java.lang.Throwable p3, java.lang.String p4, boolean p5, java.util.Map p6, com.datadog.android.core.internal.domain.Time p7, java.lang.String p8, int p9, java.lang.Object p10)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.AddResourceTiming copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.AddResourceTiming p0, java.lang.String p1, com.datadog.android.rum.internal.domain.event.ResourceTiming p2, com.datadog.android.core.internal.domain.Time p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.ApplicationStarted copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.ApplicationStarted p0, com.datadog.android.core.internal.domain.Time p1, long p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.KeepAlive copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.KeepAlive p0, com.datadog.android.core.internal.domain.Time p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.ResetSession copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.ResetSession p0, com.datadog.android.core.internal.domain.Time p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.SentAction copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.SentAction p0, com.datadog.android.core.internal.domain.Time p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.SentError copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.SentError p0, com.datadog.android.core.internal.domain.Time p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.SentResource copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.SentResource p0, com.datadog.android.core.internal.domain.Time p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.StartAction copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.StartAction p0, com.datadog.android.rum.RumActionType p1, java.lang.String p2, boolean p3, java.util.Map p4, com.datadog.android.core.internal.domain.Time p5, int p6, java.lang.Object p7)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.StartResource copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.StartResource p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, java.util.Map p4, com.datadog.android.core.internal.domain.Time p5, int p6, java.lang.Object p7)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.StartView copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.StartView p0, java.lang.Object p1, java.lang.String p2, java.util.Map p3, com.datadog.android.core.internal.domain.Time p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.StopAction copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.StopAction p0, com.datadog.android.rum.RumActionType p1, java.lang.String p2, java.util.Map p3, com.datadog.android.core.internal.domain.Time p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.StopResource copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.StopResource p0, java.lang.String p1, java.lang.Long p2, java.lang.Long p3, com.datadog.android.rum.RumResourceKind p4, java.util.Map p5, com.datadog.android.core.internal.domain.Time p6, int p7, java.lang.Object p8)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.StopResourceWithError copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.StopResourceWithError p0, java.lang.String p1, java.lang.Long p2, java.lang.String p3, com.datadog.android.rum.RumErrorSource p4, java.lang.Throwable p5, com.datadog.android.core.internal.domain.Time p6, int p7, java.lang.Object p8)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.StopView copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.StopView p0, java.lang.Object p1, java.util.Map p2, com.datadog.android.core.internal.domain.Time p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.UpdateViewLoadingTime copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.UpdateViewLoadingTime p0, java.lang.Object p1, long p2, com.datadog.android.rum.model.ViewEvent.LoadingType p3, com.datadog.android.core.internal.domain.Time p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumRawEvent.WaitForResourceTiming copy$default(com.datadog.android.rum.internal.domain.scope.RumRawEvent.WaitForResourceTiming p0, java.lang.String p1, com.datadog.android.core.internal.domain.Time p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] java.util.Map<java.lang.String, java.lang.Object> getAttributes$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.net.FirstPartyHostDetector getFirstPartyHostDetector$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getKey$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getMethod$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumScope getParentScope$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getResourceId$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getUrl$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] long access$getDEFAULT_SESSION_INACTIVITY_NS$cp()' was removed because its name contains a dollar sign.
+The method '[Method] long access$getDEFAULT_SESSION_MAX_DURATION_NS$cp()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.List<com.datadog.android.rum.internal.domain.scope.RumScope> getActiveChildrenScopes$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.net.FirstPartyHostDetector getFirstPartyHostDetector$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] boolean getKeepSession$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.concurrent.atomic.AtomicLong getLastUserInteractionNs$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] float getSamplingRate$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getSessionId$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.concurrent.atomic.AtomicLong getSessionStartNs$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void onApplicationDisplayed$dd_sdk_android_release(com.datadog.android.rum.internal.domain.scope.RumRawEvent.StartView event, com.datadog.android.rum.internal.domain.scope.RumViewScope viewScope, com.datadog.android.core.internal.data.Writer<com.datadog.android.rum.internal.domain.event.RumEvent> writer)' was removed because its name contains a dollar sign.
+The method '[Method] void setKeepSession$dd_sdk_android_release(boolean <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setSessionId$dd_sdk_android_release(java.lang.String <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] long getDEFAULT_SESSION_INACTIVITY_NS$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] long getDEFAULT_SESSION_MAX_DURATION_NS$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumScope getActiveActionScope$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.Map<java.lang.String, com.datadog.android.rum.internal.domain.scope.RumScope> getActiveResourceScopes$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.util.Map<java.lang.String, java.lang.Object> getAttributes$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] long getEventTimestamp$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.net.FirstPartyHostDetector getFirstPartyHostDetector$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.ref.Reference<java.lang.Object> getKeyRef$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getName$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] boolean getStopped$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getUrlName$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getViewId$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setActiveActionScope$dd_sdk_android_release(com.datadog.android.rum.internal.domain.scope.RumScope <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setStopped$dd_sdk_android_release(boolean <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumViewScope fromEvent$dd_sdk_android_release(com.datadog.android.rum.internal.domain.scope.RumScope parentScope, com.datadog.android.rum.internal.domain.scope.RumRawEvent.StartView event, com.datadog.android.core.internal.net.FirstPartyHostDetector firstPartyHostDetector)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.instrumentation.gestures.GesturesTracker getGesturesTracker$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.instrumentation.gestures.GesturesTracker getGesturesTracker$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.instrumentation.gestures.GesturesDetectorWrapper generateGestureDetector$dd_sdk_android_release(android.content.Context context, android.view.Window window)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.tracking.ViewAttributesProvider[] getTargetAttributesProviders$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The constructor 'Constructor: com.datadog.android.rum.internal.instrumentation.gestures.GesturesDetectorWrapper.GesturesDetectorWrapper' was removed because the Java parameter type 'androidx.core.view.GestureDetectorCompat' could not be found.
+The method '[Method] java.lang.String access$getMSG_NO_TARGET_SCROLL_SWIPE$cp()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String access$getMSG_NO_TARGET_TAP$cp()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getMSG_NO_TARGET_SCROLL_SWIPE$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getMSG_NO_TARGET_TAP$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] android.view.MotionEvent copyEvent$dd_sdk_android_release(android.view.MotionEvent event)' was removed because its name contains a dollar sign.
+The method '[Method] long access$getKEEP_ALIVE_MS$cp()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.core.internal.data.Writer access$getWriter$p(com.datadog.android.rum.internal.monitor.DatadogRumMonitor $this)' was removed because its name contains a dollar sign.
+The method '[Method] android.os.Handler getHandler$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.Runnable getKeepAliveRunnable$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.domain.scope.RumScope getRootScope$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] float getSamplingRate$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void handleEvent$dd_sdk_android_release(com.datadog.android.rum.internal.domain.scope.RumRawEvent event)' was removed because its name contains a dollar sign.
+The method '[Method] void stopKeepAliveCallback$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] long getKEEP_ALIVE_MS$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void access$checkAndHandleNdkCrashReport(com.datadog.android.rum.internal.ndk.DatadogNdkCrashHandler $this)' was removed because its name contains a dollar sign.
+The method '[Method] long access$getVIEW_EVENT_AVAILABILITY_TIME_THRESHOLD$cp()' was removed because its name contains a dollar sign.
+The method '[Method] long getVIEW_EVENT_AVAILABILITY_TIME_THRESHOLD$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.ndk.NdkCrashLog copy$default(com.datadog.android.rum.internal.ndk.NdkCrashLog p0, int p1, long p2, java.lang.String p3, java.lang.String p4, java.lang.String p5, int p6, java.lang.Object p7)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String toJson$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.internal.ndk.NdkCrashLog fromJson$dd_sdk_android_release(java.lang.String jsonString)' was removed because its name contains a dollar sign.
+The constructor 'Constructor: com.datadog.android.rum.internal.net.RumOkHttpUploader.RumOkHttpUploader' was removed because the Java parameter type 'okhttp3.OkHttpClient' could not be found.
+The method '[Method] java.lang.String access$buildUrl(com.datadog.android.rum.internal.net.RumOkHttpUploader.Companion $this, java.lang.String endpoint, java.lang.String token)' was removed because its name contains a dollar sign.
+The class '[Class] com.datadog.android.rum.internal.tracking.AndroidXFragmentLifecycleCallbacks' was removed because the Java base type 'androidx.fragment.app.FragmentManager.FragmentLifecycleCallbacks' could not be found.
+The method '[Method] com.datadog.android.rum.internal.tracking.ViewLoadingTimer.ViewLoadingInfo copy$default(com.datadog.android.rum.internal.tracking.ViewLoadingTimer.ViewLoadingInfo p0, java.lang.Long p1, long p2, boolean p3, boolean p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.model.ActionEvent copy$default(com.datadog.android.rum.model.ActionEvent p0, long p1, com.datadog.android.rum.model.ActionEvent.Application p2, java.lang.String p3, com.datadog.android.rum.model.ActionEvent.Session p4, com.datadog.android.rum.model.ActionEvent.View p5, com.datadog.android.rum.model.ActionEvent.Usr p6, com.datadog.android.rum.model.ActionEvent.Connectivity p7, com.datadog.android.rum.model.ActionEvent.Dd p8, com.datadog.android.rum.model.ActionEvent.Action p9, int p10, java.lang.Object p11)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ActionEvent.Action copy$default(com.datadog.android.rum.model.ActionEvent.Action p0, com.datadog.android.rum.model.ActionEvent.ActionType p1, java.lang.String p2, java.lang.Long p3, com.datadog.android.rum.model.ActionEvent.Target p4, com.datadog.android.rum.model.ActionEvent.Error p5, com.datadog.android.rum.model.ActionEvent.Crash p6, com.datadog.android.rum.model.ActionEvent.LongTask p7, com.datadog.android.rum.model.ActionEvent.Resource p8, int p9, java.lang.Object p10)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ActionEvent.ActionType $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ActionEvent.Application copy$default(com.datadog.android.rum.model.ActionEvent.Application p0, java.lang.String p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ActionEvent.Cellular copy$default(com.datadog.android.rum.model.ActionEvent.Cellular p0, java.lang.String p1, java.lang.String p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ActionEvent.Connectivity copy$default(com.datadog.android.rum.model.ActionEvent.Connectivity p0, com.datadog.android.rum.model.ActionEvent.Status p1, java.util.List p2, com.datadog.android.rum.model.ActionEvent.Cellular p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ActionEvent.Crash copy$default(com.datadog.android.rum.model.ActionEvent.Crash p0, long p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ActionEvent.Error copy$default(com.datadog.android.rum.model.ActionEvent.Error p0, long p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ActionEvent.Interface $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ActionEvent.LongTask copy$default(com.datadog.android.rum.model.ActionEvent.LongTask p0, long p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ActionEvent.Resource copy$default(com.datadog.android.rum.model.ActionEvent.Resource p0, long p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ActionEvent.Session copy$default(com.datadog.android.rum.model.ActionEvent.Session p0, java.lang.String p1, com.datadog.android.rum.model.ActionEvent.SessionType p2, java.lang.Boolean p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ActionEvent.SessionType $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ActionEvent.Status $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ActionEvent.Target copy$default(com.datadog.android.rum.model.ActionEvent.Target p0, java.lang.String p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ActionEvent.Usr copy$default(com.datadog.android.rum.model.ActionEvent.Usr p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ActionEvent.View copy$default(com.datadog.android.rum.model.ActionEvent.View p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ErrorEvent copy$default(com.datadog.android.rum.model.ErrorEvent p0, long p1, com.datadog.android.rum.model.ErrorEvent.Application p2, java.lang.String p3, com.datadog.android.rum.model.ErrorEvent.Session p4, com.datadog.android.rum.model.ErrorEvent.View p5, com.datadog.android.rum.model.ErrorEvent.Usr p6, com.datadog.android.rum.model.ErrorEvent.Connectivity p7, com.datadog.android.rum.model.ErrorEvent.Dd p8, com.datadog.android.rum.model.ErrorEvent.Error p9, com.datadog.android.rum.model.ErrorEvent.Action p10, int p11, java.lang.Object p12)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ErrorEvent.Action copy$default(com.datadog.android.rum.model.ErrorEvent.Action p0, java.lang.String p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ErrorEvent.Application copy$default(com.datadog.android.rum.model.ErrorEvent.Application p0, java.lang.String p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ErrorEvent.Cellular copy$default(com.datadog.android.rum.model.ErrorEvent.Cellular p0, java.lang.String p1, java.lang.String p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ErrorEvent.Connectivity copy$default(com.datadog.android.rum.model.ErrorEvent.Connectivity p0, com.datadog.android.rum.model.ErrorEvent.Status p1, java.util.List p2, com.datadog.android.rum.model.ErrorEvent.Cellular p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ErrorEvent.Error copy$default(com.datadog.android.rum.model.ErrorEvent.Error p0, java.lang.String p1, com.datadog.android.rum.model.ErrorEvent.Source p2, java.lang.String p3, java.lang.Boolean p4, java.lang.String p5, com.datadog.android.rum.model.ErrorEvent.Resource p6, int p7, java.lang.Object p8)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ErrorEvent.Interface $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ErrorEvent.Method $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ErrorEvent.Provider copy$default(com.datadog.android.rum.model.ErrorEvent.Provider p0, java.lang.String p1, java.lang.String p2, com.datadog.android.rum.model.ErrorEvent.ProviderType p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ErrorEvent.ProviderType $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ErrorEvent.Resource copy$default(com.datadog.android.rum.model.ErrorEvent.Resource p0, com.datadog.android.rum.model.ErrorEvent.Method p1, long p2, java.lang.String p3, com.datadog.android.rum.model.ErrorEvent.Provider p4, int p5, java.lang.Object p6)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ErrorEvent.Session copy$default(com.datadog.android.rum.model.ErrorEvent.Session p0, java.lang.String p1, com.datadog.android.rum.model.ErrorEvent.SessionType p2, java.lang.Boolean p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ErrorEvent.SessionType $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ErrorEvent.Source $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ErrorEvent.Status $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ErrorEvent.Usr copy$default(com.datadog.android.rum.model.ErrorEvent.Usr p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ErrorEvent.View copy$default(com.datadog.android.rum.model.ErrorEvent.View p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent copy$default(com.datadog.android.rum.model.ResourceEvent p0, long p1, com.datadog.android.rum.model.ResourceEvent.Application p2, java.lang.String p3, com.datadog.android.rum.model.ResourceEvent.Session p4, com.datadog.android.rum.model.ResourceEvent.View p5, com.datadog.android.rum.model.ResourceEvent.Usr p6, com.datadog.android.rum.model.ResourceEvent.Connectivity p7, com.datadog.android.rum.model.ResourceEvent.Dd p8, com.datadog.android.rum.model.ResourceEvent.Resource p9, com.datadog.android.rum.model.ResourceEvent.Action p10, int p11, java.lang.Object p12)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Action copy$default(com.datadog.android.rum.model.ResourceEvent.Action p0, java.lang.String p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Application copy$default(com.datadog.android.rum.model.ResourceEvent.Application p0, java.lang.String p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Cellular copy$default(com.datadog.android.rum.model.ResourceEvent.Cellular p0, java.lang.String p1, java.lang.String p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Connect copy$default(com.datadog.android.rum.model.ResourceEvent.Connect p0, long p1, long p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Connectivity copy$default(com.datadog.android.rum.model.ResourceEvent.Connectivity p0, com.datadog.android.rum.model.ResourceEvent.Status p1, java.util.List p2, com.datadog.android.rum.model.ResourceEvent.Cellular p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Dd copy$default(com.datadog.android.rum.model.ResourceEvent.Dd p0, java.lang.String p1, java.lang.String p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Dns copy$default(com.datadog.android.rum.model.ResourceEvent.Dns p0, long p1, long p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Download copy$default(com.datadog.android.rum.model.ResourceEvent.Download p0, long p1, long p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.FirstByte copy$default(com.datadog.android.rum.model.ResourceEvent.FirstByte p0, long p1, long p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ResourceEvent.Interface $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ResourceEvent.Method $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Provider copy$default(com.datadog.android.rum.model.ResourceEvent.Provider p0, java.lang.String p1, java.lang.String p2, com.datadog.android.rum.model.ResourceEvent.ProviderType p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ResourceEvent.ProviderType $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Redirect copy$default(com.datadog.android.rum.model.ResourceEvent.Redirect p0, long p1, long p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Resource copy$default(com.datadog.android.rum.model.ResourceEvent.Resource p0, java.lang.String p1, com.datadog.android.rum.model.ResourceEvent.ResourceType p2, com.datadog.android.rum.model.ResourceEvent.Method p3, java.lang.String p4, java.lang.Long p5, long p6, java.lang.Long p7, com.datadog.android.rum.model.ResourceEvent.Redirect p8, com.datadog.android.rum.model.ResourceEvent.Dns p9, com.datadog.android.rum.model.ResourceEvent.Connect p10, com.datadog.android.rum.model.ResourceEvent.Ssl p11, com.datadog.android.rum.model.ResourceEvent.FirstByte p12, com.datadog.android.rum.model.ResourceEvent.Download p13, com.datadog.android.rum.model.ResourceEvent.Provider p14, int p15, java.lang.Object p16)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ResourceEvent.ResourceType $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Session copy$default(com.datadog.android.rum.model.ResourceEvent.Session p0, java.lang.String p1, com.datadog.android.rum.model.ResourceEvent.SessionType p2, java.lang.Boolean p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ResourceEvent.SessionType $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Ssl copy$default(com.datadog.android.rum.model.ResourceEvent.Ssl p0, long p1, long p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ResourceEvent.Status $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.Usr copy$default(com.datadog.android.rum.model.ResourceEvent.Usr p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ResourceEvent.View copy$default(com.datadog.android.rum.model.ResourceEvent.View p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent copy$default(com.datadog.android.rum.model.ViewEvent p0, long p1, com.datadog.android.rum.model.ViewEvent.Application p2, java.lang.String p3, com.datadog.android.rum.model.ViewEvent.Session p4, com.datadog.android.rum.model.ViewEvent.View p5, com.datadog.android.rum.model.ViewEvent.Usr p6, com.datadog.android.rum.model.ViewEvent.Connectivity p7, com.datadog.android.rum.model.ViewEvent.Dd p8, int p9, java.lang.Object p10)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent.Action copy$default(com.datadog.android.rum.model.ViewEvent.Action p0, long p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent.Application copy$default(com.datadog.android.rum.model.ViewEvent.Application p0, java.lang.String p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent.Cellular copy$default(com.datadog.android.rum.model.ViewEvent.Cellular p0, java.lang.String p1, java.lang.String p2, int p3, java.lang.Object p4)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent.Connectivity copy$default(com.datadog.android.rum.model.ViewEvent.Connectivity p0, com.datadog.android.rum.model.ViewEvent.Status p1, java.util.List p2, com.datadog.android.rum.model.ViewEvent.Cellular p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent.Crash copy$default(com.datadog.android.rum.model.ViewEvent.Crash p0, long p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent.CustomTimings copy$default(com.datadog.android.rum.model.ViewEvent.CustomTimings p0, java.util.Map p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent.Dd copy$default(com.datadog.android.rum.model.ViewEvent.Dd p0, long p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent.Error copy$default(com.datadog.android.rum.model.ViewEvent.Error p0, long p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ViewEvent.Interface $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ViewEvent.LoadingType $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent.LongTask copy$default(com.datadog.android.rum.model.ViewEvent.LongTask p0, long p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent.Resource copy$default(com.datadog.android.rum.model.ViewEvent.Resource p0, long p1, int p2, java.lang.Object p3)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent.Session copy$default(com.datadog.android.rum.model.ViewEvent.Session p0, java.lang.String p1, com.datadog.android.rum.model.ViewEvent.Type p2, java.lang.Boolean p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ViewEvent.Status $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] java.lang.String access$getJsonValue$p(com.datadog.android.rum.model.ViewEvent.Type $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent.Usr copy$default(com.datadog.android.rum.model.ViewEvent.Usr p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, int p4, java.lang.Object p5)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] com.datadog.android.rum.model.ViewEvent.View copy$default(com.datadog.android.rum.model.ViewEvent.View p0, java.lang.String p1, java.lang.String p2, java.lang.String p3, java.lang.Long p4, com.datadog.android.rum.model.ViewEvent.LoadingType p5, long p6, java.lang.Long p7, java.lang.Long p8, java.lang.Long p9, java.lang.Long p10, java.lang.Double p11, java.lang.Long p12, java.lang.Long p13, java.lang.Long p14, java.lang.Long p15, com.datadog.android.rum.model.ViewEvent.CustomTimings p16, java.lang.Boolean p17, com.datadog.android.rum.model.ViewEvent.Action p18, com.datadog.android.rum.model.ViewEvent.Error p19, com.datadog.android.rum.model.ViewEvent.Crash p20, com.datadog.android.rum.model.ViewEvent.LongTask p21, com.datadog.android.rum.model.ViewEvent.Resource p22, int p23, java.lang.Object p24)' was removed because its name contains a dollar sign.
+The method '[Method] com.google.gson.JsonElement toJson()' was removed because the Java return type 'com.google.gson.JsonElement' could not be found.
+The method '[Method] long access$getCallStart$p(com.datadog.android.rum.resource.RumResourceInputStream $this)' was removed because its name contains a dollar sign.
+The method '[Method] long access$getFirstByte$p(com.datadog.android.rum.resource.RumResourceInputStream $this)' was removed because its name contains a dollar sign.
+The method '[Method] long access$getLastByte$p(com.datadog.android.rum.resource.RumResourceInputStream $this)' was removed because its name contains a dollar sign.
+The method '[Method] void access$setCallStart$p(com.datadog.android.rum.resource.RumResourceInputStream $this, long <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void access$setFirstByte$p(com.datadog.android.rum.resource.RumResourceInputStream $this, long <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void access$setLastByte$p(com.datadog.android.rum.resource.RumResourceInputStream $this, long <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] boolean getFailed$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String getKey$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] long getSize$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] void setFailed$dd_sdk_android_release(boolean <set-?>)' was removed because its name contains a dollar sign.
+The method '[Method] void setSize$dd_sdk_android_release(long <set-?>)' was removed because its name contains a dollar sign.
+The class '[Class] com.datadog.android.rum.tracking.AcceptAllSupportFragments' was removed because the Java implemented interface type 'com.datadog.android.rum.tracking.ComponentPredicate<androidx.fragment.app.Fragment>' could not be found.
+The constructor 'Constructor: com.datadog.android.rum.tracking.FragmentViewTrackingStrategy.FragmentViewTrackingStrategy' was removed because the Java parameter type 'com.datadog.android.rum.tracking.ComponentPredicate' could not be found.
+The constructor 'Constructor: com.datadog.android.rum.tracking.FragmentViewTrackingStrategy.FragmentViewTrackingStrategy' was removed because the Java parameter type 'com.datadog.android.rum.tracking.ComponentPredicate' could not be found.
+The method '[Method] com.datadog.android.rum.tracking.ComponentPredicate access$getDefaultFragmentComponentPredicate$p(com.datadog.android.rum.tracking.FragmentViewTrackingStrategy $this)' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.rum.tracking.ComponentPredicate access$getSupportFragmentComponentPredicate$p(com.datadog.android.rum.tracking.FragmentViewTrackingStrategy $this)' was removed because its name contains a dollar sign.
+The method '[Method] boolean access$getTrackArguments$p(com.datadog.android.rum.tracking.FragmentViewTrackingStrategy $this)' was removed because its name contains a dollar sign.
+The constructor 'Constructor: com.datadog.android.rum.tracking.MixedViewTrackingStrategy.MixedViewTrackingStrategy' was removed because the Java parameter type 'com.datadog.android.rum.tracking.ComponentPredicate' could not be found.
+The constructor 'Constructor: com.datadog.android.rum.tracking.MixedViewTrackingStrategy.MixedViewTrackingStrategy' was removed because the Java parameter type 'com.datadog.android.rum.tracking.ComponentPredicate' could not be found.
+The class '[Class] com.datadog.android.rum.tracking.NavigationViewTrackingStrategy' was removed because the Java implemented interface type 'androidx.navigation.NavController.OnDestinationChangedListener' could not be found.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because its name contains a dollar sign.
+The method '[Method] android.database.DatabaseErrorHandler getDefaultErrorHandler$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] io.opentracing.Tracer.SpanBuilder buildSpan(java.lang.String p0)' was removed because the Java return type 'io.opentracing.Tracer.SpanBuilder' could not be found.
+The method '[Method] void logErrorMessage(io.opentracing.Span span, java.lang.String message)' was removed because the Java parameter type 'io.opentracing.Span' could not be found.
+The method '[Method] void logThrowable(io.opentracing.Span span, java.lang.Throwable throwable)' was removed because the Java parameter type 'io.opentracing.Span' could not be found.
+The method '[Method] java.util.Properties properties$dd_sdk_android_release()' was removed because its name contains a dollar sign.
+The method '[Method] com.datadog.android.tracing.AndroidTracer.Builder withRandom$dd_sdk_android_release(java.util.Random random)' was removed because its name contains a dollar sign.
+The method '[Method] void logErrorMessage(io.opentracing.Span span, java.lang.String message)' was removed because the Java parameter type 'io.opentracing.Span' could not be found.
+The method '[Method] void logThrowable(io.opentracing.Span span, java.lang.Throwable throwable)' was removed because the Java parameter type 'io.opentracing.Span' could not be found.
+The method '[Method] void onRequestIntercepted(okhttp3.Request request, io.opentracing.Span span, okhttp3.Response response, java.lang.Throwable throwable)' was removed because the Java parameter type 'okhttp3.Request' could not be found.
+The method '[Method] void onRequestIntercepted(okhttp3.Request request, io.opentracing.Span span, okhttp3.Response response, java.lang.Throwable throwable)' was removed because the Java parameter type 'io.opentracing.Span' could not be found.
+The method '[Method] void onRequestIntercepted(okhttp3.Request request, io.opentracing.Span span, okhttp3.Response response, java.lang.Throwable throwable)' was removed because the Java parameter type 'okhttp3.Response' could not be found.
+The method '[Method] void onRequestIntercepted(okhttp3.Request request, io.opentracing.Span span, okhttp3.Response response, java.lang.Throwable throwable)' was removed because the Java parameter type 'okhttp3.Request' could not be found.
+The method '[Method] void onRequestIntercepted(okhttp3.Request request, io.opentracing.Span span, okhttp3.Response response, java.lang.Throwable throwable)' was removed because the Java parameter type 'io.opentracing.Span' could not be found.
+The method '[Method] void onRequestIntercepted(okhttp3.Request request, io.opentracing.Span span, okhttp3.Response response, java.lang.Throwable throwable)' was removed because the Java parameter type 'okhttp3.Response' could not be found.
+The constructor 'Constructor: com.datadog.android.tracing.TracingInterceptor.TracingInterceptor' was removed because the Java parameter type 'kotlin.jvm.functions.Function0' could not be found.
+The class '[Class] com.datadog.android.tracing.TracingInterceptor' was removed because the Java implemented interface type 'okhttp3.Interceptor' could not be found.
+The constructor 'Constructor: com.datadog.android.tracing.internal.net.TracesOkHttpUploader.TracesOkHttpUploader' was removed because the Java parameter type 'okhttp3.OkHttpClient' could not be found.
+The method '[Method] java.lang.String access$buildUrl(com.datadog.android.tracing.internal.net.TracesOkHttpUploader.Companion $this, java.lang.String endpoint, java.lang.String token)' was removed because its name contains a dollar sign.
+The method '[Method] java.lang.String spanId(io.opentracing.Tracer obj)' was removed because the Java parameter type 'io.opentracing.Tracer' could not be found.
+The method '[Method] java.lang.String traceId(io.opentracing.Tracer obj)' was removed because the Java parameter type 'io.opentracing.Tracer' could not be found.
+The class '[Class] com.datadog.opentracing.DDSpan' was removed because the Java implemented interface type 'io.opentracing.Span' could not be found.
+The class '[Class] com.datadog.opentracing.DDSpanContext' was removed because the Java implemented interface type 'io.opentracing.SpanContext' could not be found.
+The class '[Class] com.datadog.opentracing.DDTracer' was removed because the Java implemented interface type 'io.opentracing.Tracer' could not be found.
+The method '[Method] io.opentracing.SpanContext extract(io.opentracing.propagation.TextMapExtract carrier)' was removed because the Java return type 'io.opentracing.SpanContext' could not be found.
+The method '[Method] void inject(com.datadog.opentracing.DDSpanContext context, io.opentracing.propagation.TextMapInject carrier)' was removed because the Java parameter type 'io.opentracing.propagation.TextMapInject' could not be found.
+The method '[Method] io.opentracing.SpanContext extract(io.opentracing.propagation.TextMapExtract carrier)' was removed because the Java return type 'io.opentracing.SpanContext' could not be found.
+The method '[Method] void inject(com.datadog.opentracing.DDSpanContext context, io.opentracing.propagation.TextMapInject carrier)' was removed because the Java parameter type 'io.opentracing.propagation.TextMapInject' could not be found.
+The method '[Method] io.opentracing.SpanContext extract(io.opentracing.propagation.TextMapExtract carrier)' was removed because the Java return type 'io.opentracing.SpanContext' could not be found.
+The method '[Method] void inject(com.datadog.opentracing.DDSpanContext context, io.opentracing.propagation.TextMapInject carrier)' was removed because the Java parameter type 'io.opentracing.propagation.TextMapInject' could not be found.
+The method '[Method] io.opentracing.SpanContext extract(io.opentracing.propagation.TextMapExtract carrier)' was removed because the Java return type 'io.opentracing.SpanContext' could not be found.
+The method '[Method] void inject(com.datadog.opentracing.DDSpanContext context, io.opentracing.propagation.TextMapInject carrier)' was removed because the Java parameter type 'io.opentracing.propagation.TextMapInject' could not be found.
+The method '[Method] io.opentracing.SpanContext extract(io.opentracing.propagation.TextMapExtract p0)' was removed because the Java return type 'io.opentracing.SpanContext' could not be found.
+The method '[Method] void inject(com.datadog.opentracing.DDSpanContext p0, io.opentracing.propagation.TextMapInject p1)' was removed because the Java parameter type 'io.opentracing.propagation.TextMapInject' could not be found.
+The class '[Class] com.datadog.opentracing.propagation.TagContext' was removed because the Java implemented interface type 'io.opentracing.SpanContext' could not be found.
+The class '[Class] com.datadog.opentracing.scopemanager.ContextualScopeManager' was removed because the Java implemented interface type 'io.opentracing.ScopeManager' could not be found.
+The method '[Method] io.opentracing.Span span()' was removed because the Java return type 'io.opentracing.Span' could not be found.
+The interface 'Interface: com.datadog.opentracing.scopemanager.DDScope' was removed because the Java implemented interface type 'io.opentracing.Scope' could not be found.
+The interface 'Interface: com.datadog.opentracing.scopemanager.ScopeContext' was removed because the Java implemented interface type 'io.opentracing.ScopeManager' could not be found.
+The constructor 'Constructor: com.datadog.opentracing.scopemanager.SimpleScope.SimpleScope' was removed because the Java parameter type 'io.opentracing.Span' could not be found.
+The method '[Method] io.opentracing.Span span()' was removed because the Java return type 'io.opentracing.Span' could not be found.
+
+==== Cycle 2 ====
+
+The class '[Class] com.datadog.android.DatadogInterceptor' was removed because the Java base type 'com.datadog.android.tracing.TracingInterceptor' could not be found.
+The class '[Class] com.datadog.android.tracing.AndroidTracer' was removed because the Java base type 'com.datadog.opentracing.DDTracer' could not be found.
+The class '[Class] com.datadog.android.tracing.internal.TracesFeature' was removed because the Java base type 'com.datadog.android.core.internal.SdkFeature<com.datadog.opentracing.DDSpan, com.datadog.android.core.configuration.Configuration.Feature.Tracing>' could not be found.
+The constructor 'Constructor: com.datadog.android.tracing.internal.data.TraceWriter.TraceWriter' was removed because the Java parameter type 'com.datadog.android.core.internal.data.Writer' could not be found.
+The method '[Method] com.datadog.android.core.internal.data.Writer<com.datadog.opentracing.DDSpan> getWriter()' was removed because the Java return type 'com.datadog.android.core.internal.data.Writer<com.datadog.opentracing.DDSpan>' could not be found.
+The method '[Method] void write(java.util.List<com.datadog.opentracing.DDSpan> trace)' was removed because the Java parameter type 'java.util.List' could not be found.
+The class '[Class] com.datadog.android.tracing.internal.domain.SpanSerializer' was removed because the Java implemented interface type 'com.datadog.android.core.internal.domain.Serializer<com.datadog.opentracing.DDSpan>' could not be found.
+The class '[Class] com.datadog.android.tracing.internal.domain.TracingFileStrategy' was removed because the Java base type 'com.datadog.android.core.internal.domain.FilePersistenceStrategy<com.datadog.opentracing.DDSpan>' could not be found.
+The method '[Method] void log(long timestampMicroseconds, java.lang.String event, com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void log(long timestampMicroseconds, java.util.Map<java.lang.String, ?> fields, com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void log(java.lang.String event, com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void log(java.util.Map<java.lang.String, ?> fields, com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void log(long timestampMicroseconds, java.lang.String event, com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void log(long timestampMicroseconds, java.util.Map<java.lang.String, ?> fields, com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void log(java.lang.String event, com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void log(java.util.Map<java.lang.String, ?> fields, com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void log(long p0, java.lang.String p1, com.datadog.opentracing.DDSpan p2)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void log(long p0, java.util.Map<java.lang.String, ?> p1, com.datadog.opentracing.DDSpan p2)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void log(java.lang.String p0, com.datadog.opentracing.DDSpan p1)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void log(java.util.Map<java.lang.String, ?> p0, com.datadog.opentracing.DDSpan p1)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The class '[Class] com.datadog.opentracing.PendingTrace' was removed because the Java base type 'java.util.LinkedList<com.datadog.opentracing.DDSpan>' could not be found.
+The method '[Method] boolean shouldSetTag(com.datadog.opentracing.DDSpanContext context, java.lang.String tag, java.lang.Object value)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpanContext' could not be found.
+The method '[Method] boolean shouldSetTag(com.datadog.opentracing.DDSpanContext context, java.lang.String tag, java.lang.Object value)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpanContext' could not be found.
+The method '[Method] boolean shouldSetTag(com.datadog.opentracing.DDSpanContext context, java.lang.String tag, java.lang.Object value)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpanContext' could not be found.
+The method '[Method] boolean shouldSetTag(com.datadog.opentracing.DDSpanContext context, java.lang.String tag, java.lang.Object value)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpanContext' could not be found.
+The method '[Method] boolean shouldSetTag(com.datadog.opentracing.DDSpanContext context, java.lang.String tag, java.lang.Object value)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpanContext' could not be found.
+The method '[Method] boolean shouldSetTag(com.datadog.opentracing.DDSpanContext context, java.lang.String tag, java.lang.Object value)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpanContext' could not be found.
+The method '[Method] boolean shouldSetTag(com.datadog.opentracing.DDSpanContext context, java.lang.String tag, java.lang.Object value)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpanContext' could not be found.
+The method '[Method] com.datadog.opentracing.jfr.DDScopeEvent create(com.datadog.opentracing.DDSpanContext context)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpanContext' could not be found.
+The method '[Method] com.datadog.opentracing.jfr.DDScopeEvent create(com.datadog.opentracing.DDSpanContext p0)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpanContext' could not be found.
+The class '[Class] com.datadog.opentracing.propagation.ExtractedContext' was removed because the Java base type 'com.datadog.opentracing.propagation.TagContext' could not be found.
+The class '[Class] com.datadog.opentracing.scopemanager.ContinuableScope' was removed because the Java implemented interface type 'com.datadog.opentracing.scopemanager.DDScope' could not be found.
+The class '[Class] com.datadog.opentracing.scopemanager.SimpleScope' was removed because the Java implemented interface type 'com.datadog.opentracing.scopemanager.DDScope' could not be found.
+The method '[Method] boolean doSample(com.datadog.opentracing.DDSpan p0)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] boolean sample(com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] boolean doSample(com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] boolean sample(com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void setSamplingPriority(com.datadog.opentracing.DDSpan p0)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] boolean sample(com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void setSamplingPriority(com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] boolean sample(com.datadog.opentracing.DDSpan p0)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] boolean matches(com.datadog.opentracing.DDSpan p0)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] boolean sample(com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] boolean matches(com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] java.lang.String getRelevantString(com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] java.lang.String getRelevantString(com.datadog.opentracing.DDSpan p0)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] boolean matches(com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] java.lang.String getRelevantString(com.datadog.opentracing.DDSpan span)' was removed because the Java parameter type 'com.datadog.opentracing.DDSpan' could not be found.
+The method '[Method] void write(java.util.List<com.datadog.opentracing.DDSpan> trace)' was removed because the Java parameter type 'java.util.List' could not be found.
+The method '[Method] void write(java.util.List<com.datadog.opentracing.DDSpan> p0)' was removed because the Java parameter type 'java.util.List' could not be found.
+
+==== Cycle 3 ====
+
+The class '[Class] com.datadog.android.rum.RumInterceptor' was removed because the Java base type 'com.datadog.android.DatadogInterceptor' could not be found.
+
